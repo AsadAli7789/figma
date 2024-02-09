@@ -246,7 +246,7 @@ animation-name: lka;
 }
 .blody{
   height: 3800px;
-  background: linear-gradient(180deg,  #e1fd0fce 10%, rgb(198, 148, 238) 30%, #4EBB52 70%, #7bd7fc 100%);
+   background: linear-gradient(180deg,  #e1fd0fce 10%, rgb(198, 148, 238) 30%, #4EBB52 70%, #7bd7fc 100%); 
   
 }
 .lkf{
@@ -255,11 +255,11 @@ animation-name: lka;
   max-width: 100%;
 }
 .one{
-    border: 0px solid black;
+    border: 2px solid black;
   
     grid-column-start: 1;
     grid-column-end: 4;
-   
+   width: 100%;
     
 
 }
@@ -268,7 +268,9 @@ animation-name: lka;
   border: 0px solid black;
   grid-column-start: 1;
   grid-column-end: 4;
-  height: 100px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .three{
@@ -290,10 +292,73 @@ animation-name: lka;
 }
 .two>span{
   font-family: 'Noto Sans', sans-serif;
-  font-size: 70px;
+  font-size: 300%;
   font-weight: 900;
   margin-left: 20px;
   margin-bottom: 10px;
+}
+@media (max-width:1260px) {
+  .lkf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+.one{
+    border: 2px solid black;
+  
+    grid-column-start: 1;
+  grid-column-end: 4;
+   width: 100%;}
+   .two {
+  
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100px;
+    width: 100%;
+  } 
+  .three{
+        
+        border: 0px solid black;
+        height: 300px;
+        width: 400px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin: 0px auto;
+       
+      }   
+      
+      .kli{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 2px solid black;
+      }
+      .twol{
+        border: 2px solid black;
+      }
+      .threel{
+        border: 2px solid black;
+      }
+      
+      .fourl{
+        border: 2px solid black;
+      }
+    
+#okl{
+  display: none;
+}
+#ufo{
+  width: 100%;
+  display: flex;
+}
+.onel{
+  order: -3;
+}
+.twol{ order: -2;}
+.fourl{
+  order: -1;
+}
 }
 .vlp{
   border:0px solid black;
@@ -447,7 +512,30 @@ animation-name: lka;
       display: flex;
       height: 200px;
       background-color: black;
+      width: 100%;
     }
+
+
+@media (max-width:900px) {
+  .lpc{
+    display: flex;
+  
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     .hjg{
       
       border: 2px solid black;
@@ -479,7 +567,7 @@ animation-name: lka;
     }
     .hlj{
       position: absolute;
-      top: 5140px;
+      top: 5250px;
       color: white;
 
     }
@@ -591,7 +679,7 @@ animation-duration: 10s;
       color: white;
       padding: 14px 24px 16px;
       border-radius: 10px;
-      width: 300px;
+      width: 50%;
       margin-left: 200px;
       border: none;
       animation-name: asa;
@@ -601,11 +689,36 @@ animation-duration: 10s;
     transition: 1s;
     transform: translateY(-5px);
   }
+  @media (max-width:875px) {
+     
+    .kml>button{
+     margin-right: 2%;
+    }
+    .twod{}
+    
+}
+  footer{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 .uto{
   display: flex;
   flex-wrap: wrap;
   border: 2px soild black;
-  min-height:550px ;
+  height:100% ;
   background-color: black;
   width: 100%;
   
@@ -725,3 +838,16 @@ margin-top: 50px;
 .hlo>option>span{
   color: white;
 }
+.khb{
+  display: flex;
+}
+.lpk{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bma{width: 100%;
+background-color: #4EBB52;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;}
+@media(max-width:2)
